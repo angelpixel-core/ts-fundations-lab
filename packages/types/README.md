@@ -6,6 +6,19 @@ Modulo para practicar TypeScript avanzado:
 - deep types
 - conditional types e infer
 
+## Mapa rapido de type keywords
+
+| Keyword     | Idea central                        | Cuando usar                                          | Riesgo comun                         |
+| ----------- | ----------------------------------- | ---------------------------------------------------- | ------------------------------------ |
+| `any`       | Desactiva chequeo de tipos          | Migraciones puntuales o prototipos rapidos           | Pierdes seguridad estatica           |
+| `unknown`   | Tipo desconocido pero seguro        | Entradas externas (API, JSON, user input)            | Necesita narrowing antes de usar     |
+| `never`     | Valor imposible / rama inalcanzable | Exhaustividad en `switch`, funciones que no retornan | Confundirlo con "vacio"              |
+| `undefined` | Ausencia de valor                   | Retornos opcionales y propiedades no seteadas        | Mezclarlo con propiedad opcional `?` |
+| `null`      | Ausencia intencional explicita      | Contratos que distinguen "sin dato" de "no definido" | Mezclar reglas con `undefined`       |
+| `void`      | No se usa valor de retorno          | Funciones con efectos laterales                      | Usarlo como sinonimo de `undefined`  |
+
+Referencia extendida: `packages/types/fundamentals/README.md`
+
 Cada subcarpeta debe incluir ejemplos explicables en entrevista.
 
 ## Plan de trabajo
@@ -13,13 +26,14 @@ Cada subcarpeta debe incluir ejemplos explicables en entrevista.
 ### Estructura estandar por submodulo
 
 - [x] `utility-types/` con `src/`, `tests/`, `README.md`, `index.ts`
-- [ ] `deep-types/` con `src/`, `tests/`, `README.md`, `index.ts`
+- [x] `deep-types/` con `src/`, `tests/`, `README.md`, `index.ts`
 - [ ] `conditional-infer/` con `src/`, `tests/`, `README.md`, `index.ts`
+- [x] `fundamentals/` con `README.md` de conceptos base y comparativas
 
 ### Implementacion minima
 
 - [x] `utility-types`: `MyPartial`, `MyReadonly`, `MyPick`
-- [ ] `deep-types`: `DeepReadonly`, `DeepPartial`
+- [x] `deep-types`: `DeepReadonly`, `DeepPartial`
 - [ ] `conditional-infer`: `ReturnTypeCustom`, `ParametersCustom`, `AwaitedCustom`
 
 ### Testing y validacion

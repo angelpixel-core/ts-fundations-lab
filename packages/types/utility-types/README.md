@@ -27,3 +27,6 @@ utility-types/
 
 Poder reconstruir estos tipos desde cero es una senal fuerte de dominio en TypeScript,
 porque muestra manejo de `keyof`, `in` y restricciones de generics.
+
+Referencia recomendada de base conceptual:
+`packages/types/fundamentals/README.md`
