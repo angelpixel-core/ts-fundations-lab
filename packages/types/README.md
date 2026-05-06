@@ -12,13 +12,13 @@ Cada subcarpeta debe incluir ejemplos explicables en entrevista.
 
 ### Estructura estandar por submodulo
 
-- [ ] `utility-types/` con `src/`, `tests/`, `README.md`, `index.ts`
+- [x] `utility-types/` con `src/`, `tests/`, `README.md`, `index.ts`
 - [ ] `deep-types/` con `src/`, `tests/`, `README.md`, `index.ts`
 - [ ] `conditional-infer/` con `src/`, `tests/`, `README.md`, `index.ts`
 
 ### Implementacion minima
 
-- [ ] `utility-types`: `MyPartial`, `MyReadonly`, `MyPick`
+- [x] `utility-types`: `MyPartial`, `MyReadonly`, `MyPick`
 - [ ] `deep-types`: `DeepReadonly`, `DeepPartial`
 - [ ] `conditional-infer`: `ReturnTypeCustom`, `ParametersCustom`, `AwaitedCustom`
 
