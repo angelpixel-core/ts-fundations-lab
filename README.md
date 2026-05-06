@@ -41,3 +41,15 @@ Docs/
 - completar la primera estructura (`stack`)
 - agregar tests y notas de complejidad
 - incorporar configuracion de lint, test y CI
+
+## Tooling
+
+Comandos principales:
+
+- `npm run pipeline`: ejecuta validacion completa (format, types, lint, tests)
+- `npm run test`: ejecuta los tests con Vitest
+- `npm run test:watch`: modo watch de Vitest
+- `npm run lint`: valida reglas de ESLint
+- `npm run typecheck`: verifica tipos con TypeScript
+- `npm run format`: aplica formato con Prettier
+- `npm run format:check`: verifica formato sin modificar archivos
