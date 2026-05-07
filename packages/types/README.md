@@ -27,22 +27,22 @@ Cada subcarpeta debe incluir ejemplos explicables en entrevista.
 
 - [x] `utility-types/` con `src/`, `tests/`, `README.md`, `index.ts`
 - [x] `deep-types/` con `src/`, `tests/`, `README.md`, `index.ts`
-- [ ] `conditional-infer/` con `src/`, `tests/`, `README.md`, `index.ts`
+- [x] `conditional-infer/` con `src/`, `tests/`, `README.md`, `index.ts`
 - [x] `fundamentals/` con `README.md` de conceptos base y comparativas
 
 ### Implementacion minima
 
 - [x] `utility-types`: `MyPartial`, `MyReadonly`, `MyPick`
 - [x] `deep-types`: `DeepReadonly`, `DeepPartial`
-- [ ] `conditional-infer`: `ReturnTypeCustom`, `ParametersCustom`, `AwaitedCustom`
+- [x] `conditional-infer`: `ReturnTypeCustom`, `ParametersCustom`, `AwaitedCustom`
 
 ### Testing y validacion
 
-- [ ] Agregar helpers de type testing (`Equal`, `Expect`) para assertions de tipos
-- [ ] Agregar tests por modulo con Vitest (runtime solo cuando aplique)
-- [ ] Ejecutar `npm run pipeline` y dejar todo en verde
+- [x] Agregar helpers de type testing (`Equal`, `Expect`) para assertions de tipos
+- [x] Agregar tests por modulo con Vitest (runtime solo cuando aplique)
+- [x] Ejecutar `npm run pipeline` y dejar todo en verde
 
 ### Documentacion
 
-- [ ] README por submodulo con objetivo, ejemplos y nota de entrevista
-- [ ] Mantener comentarios en espanol en los casos no obvios
+- [x] README por submodulo con objetivo, ejemplos y nota de entrevista
+- [x] Mantener comentarios en espanol en los casos no obvios
