@@ -18,6 +18,7 @@ queue/
   src/
     queue.interface.ts
     array-queue.ts
+    optimized-queue.ts
     immutable-queue.ts
     serializable-queue.ts
     index.ts
@@ -25,12 +26,20 @@ queue/
     queue.examples.ts
 ```
 
-## Complejidad esperada (version didactica)
+## Complejidad esperada
 
 Para `ArrayQueue` y `SerializableQueue`:
 
 - `enqueue`: O(1)
 - `dequeue`: O(n) por uso de `shift`
+- `peek`: O(1)
+- `size`: O(1)
+- `isEmpty`: O(1)
+
+Para `OptimizedQueue`:
+
+- `enqueue`: O(1)
+- `dequeue`: O(1) amortizado
 - `peek`: O(1)
 - `size`: O(1)
 - `isEmpty`: O(1)
@@ -46,4 +55,4 @@ Para `ImmutableQueue`:
 ## Nota de entrevista
 
 La version didactica es ideal para explicar la semantica FIFO.
-Luego se puede introducir una variante optimizada para mejorar `dequeue` a O(1) amortizado.
+La version optimizada muestra criterio de rendimiento al evitar `shift`.
