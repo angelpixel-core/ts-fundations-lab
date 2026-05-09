@@ -87,7 +87,7 @@ Usar plantilla comun de registro:
 
 - [x] `micro-45-01`
 - [x] `micro-45-02`
-- [ ] `micro-45-03` (POO + trampas)
+- [x] `micro-45-03` (POO + trampas)
 - [ ] Simulacro completo `120 min`
 
 ## Estructura
