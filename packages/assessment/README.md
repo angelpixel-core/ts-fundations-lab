@@ -92,6 +92,32 @@ Usar plantilla comun de registro:
 - [x] `micro-45-03` (POO + trampas)
 - [x] `mock-120-01` (simulacro completo `120 min`)
 
+## Calendario recomendado (3 sesiones)
+
+### Sesion 1 (60-75 min totales)
+
+- Ejecutar `mock-120/micro-45-01/README.md` con timer real (45 min).
+- Completar `mock-120/micro-45-01/scorecard.md`.
+- Registrar post-mortem en `postmortem.template.md`.
+
+### Sesion 2 (60-75 min totales)
+
+- Ejecutar `mock-120/micro-45-02/README.md` con timer real (45 min).
+- Completar `mock-120/micro-45-02/scorecard.md`.
+- Registrar post-mortem en `postmortem.template.md`.
+
+### Sesion 3 (140-160 min totales)
+
+- Ejecutar `mock-120/mock-120-01/README.md` con timer real (120 min).
+- Completar `mock-120/mock-120-01/scorecard.md`.
+- Registrar post-mortem en `postmortem.template.md`.
+
+## Criterio de avance
+
+- Meta micro-simulacros: 75/100 o mas.
+- Meta simulacro 120 min: 70/100 o mas.
+- Si no se alcanza meta: repetir la sesion con foco en el error mas caro detectado.
+
 ## Estructura
 
 ```text
