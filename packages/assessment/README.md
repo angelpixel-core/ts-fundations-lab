@@ -61,6 +61,35 @@ Usar siempre este orden para entrenar modo examen:
 Usar plantilla comun de registro:
 `packages/assessment/postmortem.template.md`
 
+## Plan de etapa actual
+
+### Fundamentos
+
+- [x] `array-frequency-counter`
+- [x] `first-non-repeated-char`
+- [x] `stack-balanced-parentheses`
+- [x] `big-o-array-claims`
+- [x] `duplicates-detector`
+- [x] `reverse-string`
+- [x] `two-sum-indexes`
+
+### POO
+
+- [x] `library-cohesion`
+- [ ] Agregar 2 ejercicios mas de encapsulacion/composicion
+
+### Trampas
+
+- [x] `queue-efficiency-claim`
+- [ ] Agregar 2 casos mas de verdadero/falso contextual
+
+### Simulacros
+
+- [x] `micro-45-01`
+- [x] `micro-45-02`
+- [ ] `micro-45-03` (POO + trampas)
+- [ ] Simulacro completo `120 min`
+
 ## Estructura
 
 ```text
