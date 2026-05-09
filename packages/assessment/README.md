@@ -76,19 +76,21 @@ Usar plantilla comun de registro:
 ### POO
 
 - [x] `library-cohesion`
-- [ ] Agregar 2 ejercicios mas de encapsulacion/composicion
+- [x] `bank-account-encapsulation`
+- [x] `composition-vs-inheritance-notifier`
 
 ### Trampas
 
 - [x] `queue-efficiency-claim`
-- [ ] Agregar 2 casos mas de verdadero/falso contextual
+- [x] `inheritance-always-better`
+- [x] `compile-means-good-design`
 
 ### Simulacros
 
 - [x] `micro-45-01`
 - [x] `micro-45-02`
 - [x] `micro-45-03` (POO + trampas)
-- [ ] Simulacro completo `120 min`
+- [x] `mock-120-01` (simulacro completo `120 min`)
 
 ## Estructura
 

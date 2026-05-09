@@ -28,3 +28,5 @@ Simulacros de 120 minutos en modo examen.
 - `micro-45-02/scorecard.md`
 - `micro-45-03/README.md`
 - `micro-45-03/scorecard.md`
+- `mock-120-01/README.md`
+- `mock-120-01/scorecard.md`
