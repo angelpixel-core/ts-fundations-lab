@@ -19,3 +19,8 @@ Simulacros de 120 minutos en modo examen.
 - Por que falle
 - Como lo resolveria mejor en un segundo intento
 - Regla academica para recordar
+
+## Micro-simulacros disponibles
+
+- `micro-45-01/README.md`
+- `micro-45-01/scorecard.md`
