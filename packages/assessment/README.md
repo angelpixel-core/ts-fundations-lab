@@ -58,6 +58,9 @@ Usar siempre este orden para entrenar modo examen:
 - Error principal (lectura, complejidad, modelado, edge case).
 - Regla academica aprendida en una linea.
 
+Usar plantilla comun de registro:
+`packages/assessment/postmortem.template.md`
+
 ## Estructura
 
 ```text
